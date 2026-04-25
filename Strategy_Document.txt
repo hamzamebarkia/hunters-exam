@@ -1,0 +1,26 @@
+=== HUNTER EXAM OPTIMIZATION STRATEGY ===
+
+1. Modeling the Exam
+The Exam is modeled as a sequence of phases. Each phase requires specific stat combinations.
+Applicants have true stats (hidden) and public stats. Performance is a weighted sum of true stats based on phase requirements.
+Energy is depleted each phase. Reaching 0 energy means elimination.
+
+2. Optimization Algorithm
+The strategy dynamically decides whether to 'exert' or 'conserve'.
+If energy is dangerously low (<150), the algorithm defaults to conserve unless it's the final phase.
+If the elimination rate of a phase is high (>25%), it opts to exert to ensure survival.
+
+3. Handling Trust Uncertainty
+Trust scores are hidden. The engine uses an 'estimated_trust' model that updates after an alliance is formed.
+It adds a noise factor to simulate the uncertainty of human relationships. We only ally if the phase's alliance_multiplier > 1.0.
+
+4. Detecting Wildcards and Ringers
+The simulation tracks the observed performance of each applicant across phases.
+Ringers: Detected if average actual performance is significantly lower (<70%) than expected performance based on public stats.
+-> Detected Ringers: A125, A265, A347, A136, A285, A291, A321, A162, A273, A004, A141, A311, A072, A356, A185, A027, A165
+Wildcards: Detected if the variance in their performance across phases exceeds a high threshold (400).
+-> Detected Wildcards: A265, A347, A062, A115, A045, A330, A075
+
+5. Edge Cases Accounted For
+- Alliances failing due to hidden negative trust, which applies a penalty to performance.
+- Running out of energy being an instant elimination criteria regardless of stat performance.

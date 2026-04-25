@@ -1,0 +1,93 @@
+[
+  {
+    "phase_id": "P1",
+    "stat_requirements": {
+      "Speed": 0.02673277721286579,
+      "Strength": 0.07370301441686045,
+      "Intelligence": 0.27399176332573233,
+      "Nen Control": 0.13757701934099592,
+      "Teamwork": 0.48799542570354554
+    },
+    "elimination_rate": 0.13437093739795722,
+    "energy_cost": 71,
+    "alliance_multiplier": 1.5
+  },
+  {
+    "phase_id": "P2",
+    "stat_requirements": {
+      "Speed": 0.45866229575939166,
+      "Strength": 0.061360375890476736,
+      "Intelligence": 0.19280104844931584,
+      "Nen Control": 0.07666376456678237,
+      "Teamwork": 0.21051251533403342
+    },
+    "elimination_rate": 0.29619915183923484,
+    "energy_cost": 79,
+    "alliance_multiplier": 1.2
+  },
+  {
+    "phase_id": "P3",
+    "stat_requirements": {
+      "Speed": 0.08290864340087283,
+      "Strength": 0.14212601725939394,
+      "Intelligence": 0.05436558017344593,
+      "Nen Control": 0.18933169611224546,
+      "Teamwork": 0.5312680630540418
+    },
+    "elimination_rate": 0.14763150716610957,
+    "energy_cost": 53,
+    "alliance_multiplier": 1.5
+  },
+  {
+    "phase_id": "P4",
+    "stat_requirements": {
+      "Speed": 0.028821567582402063,
+      "Strength": 0.34252041196834965,
+      "Intelligence": 0.3164408893726783,
+      "Nen Control": 0.12881287524515542,
+      "Teamwork": 0.1834042558314145
+    },
+    "elimination_rate": 0.1050513366150873,
+    "energy_cost": 65,
+    "alliance_multiplier": 1.2
+  },
+  {
+    "phase_id": "P5",
+    "stat_requirements": {
+      "Speed": 0.15126390419006955,
+      "Strength": 0.3445136723159249,
+      "Intelligence": 0.3581002101433506,
+      "Nen Control": 0.0752175204775309,
+      "Teamwork": 0.07090469287312402
+    },
+    "elimination_rate": 0.14619797304173582,
+    "energy_cost": 50,
+    "alliance_multiplier": 1.2
+  },
+  {
+    "phase_id": "P6",
+    "stat_requirements": {
+      "Speed": 0.25484878174843856,
+      "Strength": 0.2142807740354927,
+      "Intelligence": 0.22244964235278172,
+      "Nen Control": 0.10883396050822892,
+      "Teamwork": 0.19958684135505808
+    },
+    "elimination_rate": 0.3453698908915793,
+    "energy_cost": 55,
+    "alliance_multiplier": 1.2
+  },
+  {
+    "phase_id": "P7",
+    "stat_requirements": {
+      "Speed": 0.008289811464979861,
+      "Strength": 0.30840717663977507,
+      "Intelligence": 0.26704749347555873,
+      "Nen Control": 0.16267281510600445,
+      "Teamwork": 0.25358270331368193
+    },
+    "elimination_rate": 0.26656154374850577,
+    "energy_cost": 63,
+    "alliance_multiplier": 1.2
+  }
+]

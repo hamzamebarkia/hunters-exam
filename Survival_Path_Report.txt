@@ -1,0 +1,55 @@
+=== SURVIVAL PATH REPORT ===
+
+Applicant ID: A001
+
+Phase: P1
+Energy Before: 1000
+Strategy: CONSERVE
+Allies Chosen: A002, A003
+Survivors Remaining: 352
+Energy After: 965
+------------------------------
+Phase: P2
+Energy Before: 965
+Strategy: EXERT
+Allies Chosen: A004, A005
+Survivors Remaining: 248
+Energy After: 847
+------------------------------
+Phase: P3
+Energy Before: 847
+Strategy: CONSERVE
+Allies Chosen: A005, A010
+Survivors Remaining: 212
+Energy After: 821
+------------------------------
+Phase: P4
+Energy Before: 821
+Strategy: CONSERVE
+Allies Chosen: A005, A011
+Survivors Remaining: 190
+Energy After: 789
+------------------------------
+Phase: P5
+Energy Before: 789
+Strategy: CONSERVE
+Allies Chosen: A005, A011
+Survivors Remaining: 154
+Energy After: 764
+------------------------------
+Phase: P6
+Energy Before: 764
+Strategy: EXERT
+Allies Chosen: A005, A011
+Survivors Remaining: 71
+Energy After: 682
+------------------------------
+Phase: P7
+Energy Before: 682
+Strategy: EXERT
+Allies Chosen: A011, A017
+Survivors Remaining: 30
+Energy After: 588
+------------------------------
+
+Final Result: SURVIVED THE EXAM!
